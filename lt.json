@@ -20,7 +20,7 @@
         "jums duoda vaivorykštės sausainį su meile :heart:",
         "jums duoda seną sausainį, kuris buvo paliktas ant lietaus. Jis supelėjęs.",
         "iškepa jums šviežią sausainį. Jis kvepia nuostabiai!"
-        
+         
 ],
     "balls": [
         "Ženklai rodo, kad taip",
@@ -56,51 +56,51 @@
         "Nerizikuok.",
         "Pamiršk."
     ],
-
+ 
     "nodatafound": "Ankstesni nustatymai nerasti.",
     "retrievingdata": "Atkuriami anksčiau nustatyti nustatymai.",
     "datarestored": "Anksčiau nustatyti nustatymai atkurti sėkmingai.",
     "greyuser": "Tik bounceriai ar aukštesnėse pareigose gali mane įjungti.",
     "bouncer": "Botas negali keisti vartotojų pozicijų kai jis paleistas bouncerio.",
     "online": "/me %%BOTNAME%% sėkmingai paleistas!!",
-
-
-    "welcome": "/me Sveiki atvykę į  LIETUVĄ @%%NAME%% Įsipūsk į save geros nuotaikos, bei įvairių hitų dozės! Nebijok bendrauti su visais, nes čia renkasi tik draugiškiausi žmonės. Gero klausymo!",
-    "welcomeback": "/me @%%NAME%% Sveiki sugrįžę į Už Lietuvą muzikos kambarį! :)",
+ 
+ 
+    "welcome": "/me Labas @%%NAME%% Malonu, kad atvykai į Geriausieji bendruomenę, linkime gerai praleisti laiką ir susirasti naujų draugų. Sėkmės!",
+    "welcomeback": "/me Labas @%%NAME%% Malonu, kad atvykai į Geriausieji bendruomenę, linkime gerai praleisti laiką ir susirasti naujų draugų. Sėkmės!",
     "songknown": "/me @%%NAME%%, daina jau yra grojusi.",
     "timelimit": "/me @%%NAME%%, Jūsų daina buvo ilgesnė nei %%MAXLENGTH%% minutės.",
     "permissionownsong": "/me :up: @%%NAME%% turi teisę groti savo muziką!",
     "isblacklisted": "/me Ši daina yra draudžiamame sąraše: %%BLACKLIST%% ! Perjungiama...",
-
-
+ 
+ 
     "isopen": "/me @djs :warning:RULETĖ:warning: Norėdami žaisti ruletę rašykite !play. Nugalėtojas bus perkeltas į 1 vietą!",
     "winnerpicked": "/me :white_check_mark: Laimėtojas išrinktas! @%%NAME%% perkeltas į %%POSITION%% vietą.",
-
-
+ 
+ 
     "alreadyadding": "/me Vartotojas jau yra pridėtas! Dabartinė vieta: %%POSITION%%.",
     "adding": "/me Pridėjo @%%NAME%% į eilę. Dabartinė vieta: %%POSITION%%.",
-
-
+ 
+ 
     "usernotfound": "/me Vartotojas nerastas.",
     "notdisconnected": "/me @%%NAME%% Jūsų duomenų bazėje nėra!",
     "notdisconnected2": "/me @%%NAME%% Jūsų duomenų bazėje nėra!.",
     "noposition": "/me Paskutinė vieta eilėje nežinoma.",
     "toolongago": "/me @%%NAME%%'s Paskutinis atsijungimas buvo per senai: %%TIME%%.",
     "valid": "/me :white_check_mark: @%%NAME%% atsijungėte iš %%POSITION%% vietos prieš %%TIME%%",
-
-
+ 
+ 
     "warning1": "/me @%%NAME%%, Jūs buvote neaktyvus %%TIME%%, Prašome atsiliepti per 2 minutes arba būsite pašalinti.",
     "warning2": "/me @%%NAME%%, Jūs greitu metu būsite pašalintas dėl neaktyvumo!",
     "afkremove": "/me @%%NAME%%, Jūs buvote pašalintas, nes buvo neaktyvus %%TIME%%. Buvote eilėje %%POSITION%%. Rašykite žinutes mažiausiai %%MAXIMUMAFK%% minučių intervalu jei norite paleisti savo dainą.",
-
-
+ 
+ 
     "caps": "/me @%%NAME%%, išjunkite Caps Lock mygtuką!",
     "askskip": "/me @%%NAME%%, http://imgur.com/abxxwMo.png",
     "spam": "/me @%%NAME%%, Nesikeik!",
     "roomadvertising": "/me @%%NAME%%, Neplatink kitų kambarių nuorodų!",
     "adfly": "/me @%%NAME%%, Pakeiskite autowoot programą. Mes rekomenduojame naudoti RCS: https://rcs.radiant.dj/",
-
-
+ 
+ 
     "invalidtime": "/me [@%%NAME%%] Nurodytas netinkamas laikas.",
     "nouserspecified": "/me [@%%NAME%%] Nenurodytas vartotojas",
     "invaliduserspecified": "/me [@%%NAME%%] Nurodytas netinkamas vartotojas.",
