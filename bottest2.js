@@ -129,7 +129,7 @@
      alert('Slaptažodis teisingas!');
     else
       {
-      window.location='https://plug.dj/uz-lietuva-';
+      window.location='https://plug.dj/geriausieji';
       };
 */
     
@@ -163,7 +163,7 @@
     var loadChat = function(cb) {
         if (!cb) cb = function() {
         };
-        $.get('https://rawgit.com/basicBot/source/master/lang/langIndex.json', function(json) {
+        $.get('https://raw.githack.com/hallofmirrors/source/master/lang/langIndex.json', function(json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== 'undefined') {
                 langIndex = json;
@@ -310,10 +310,10 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: 'Lietuviškas-Botas',
+            botName: 'Patrauklus Šokėsas v2.0',
             language: 'english',
-            chatLink: 'https://rawgit.com/PowerOfMad/bot/master/lt.json',
-            scriptLink: 'https://rawgit.com/PowerOfMad/bot/master/bottest2.js',
+            chatLink: 'https://raw.githack.com/hallofmirrors/bot/master/lt.json',
+            scriptLink: 'https://raw.githack.com/hallofmirrors/bot/master/bottest2.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 50, // 1-200
             startupVolume: 15, // 0-100
@@ -362,28 +362,28 @@
             afkRankCheck: 'ambassador',
             motdEnabled: true,
             motdInterval: 7,
-            motd: 'Čia „Už Lietuvą“ Discord pokalbiai prieinami visiems! - https://discord.gg/KVmKREV // Iškritai iš DJ eilės? Rašyk !dc sugrįžimui. ',
+            motd: null,
             filterChat: true,
             etaRestriction: true,
             welcome: true,
-            opLink: 'https://goo.gl/ZnUm7l',
-            rulesLink: 'https://goo.gl/lb4uCj',
+            opLink: null,
+            rulesLink: null,
             themeLink: null,
-            fbLink: 'https://www.fb.me/Astromaniakas/',
-            discordLink: 'https://discord.gg/KVmKREV',
+            fbLink: null,
+            discordLink: 'https://discord.gg/3aK4Wyt',
             twitter: null,
-            intervalMessages: ['@staff Visi prisijungę administratoriai taip pat ir RDJ turi būti prisijungę ir DISCORD programoje Discord: https://goo.gl/3GL7QT'],
+            intervalMessages: null,
             messageInterval: 4,
             songstats: true,
             commandLiteral: '!',
             blacklists: {
-                NSFW: 'https://rawgit.com/PowerOfMad/bot/master/blacklists/NSFW.json',
-                OP: 'https://rawgit.com/PowerOfMad/bot/master/blacklists/OP.json',
-                BANNED: 'https://rawgit.com/PowerOfMad/bot/master/blacklists/BANNED.json'
+                NSFW: 'https://raw.githack.com/hallofmirrors/bot/master/blacklists/NSFW.json',
+                OP: 'https://raw.githack.com/hallofmirrors/bot/master/blacklists/OP.json',
+                BANNED: 'https://raw.githack.com/hallofmirrors/bot/master/blacklists/BANNED.json'
             }
         },
         room: {
-            name: "Už Lietuvą",
+            name: "Geriausieji",
             chatMessages: [],
             users: [],
             afkList: [],
@@ -2813,7 +2813,7 @@
                         }));
                         var argument = msg.substring(cmd.length + 1);
 
-                        $.get('https://rawgit.com/basicBot/source/master/lang/langIndex.json', function(json) {
+                        $.get('https://raw.githack.com/hallofmirrors/source/master/lang/langIndex.json', function(json) {
                             var langIndex = json;
                             var link = langIndex[argument.toLowerCase()];
                             if (typeof link === 'undefined') {
